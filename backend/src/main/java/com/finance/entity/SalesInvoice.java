@@ -9,7 +9,16 @@ import java.time.LocalDateTime;
 import java.util.List;
 
 /**
- * 销售单实体（Invoice）
+ * 销售单（发票）实体类
+ * 
+ * <p>用于管理企业的销售业务，记录向客户销售商品或提供服务的详细信息，
+ * 包括客户、销售日期、商品明细、金额、税额、收款情况等。</p>
+ * 
+ * <p>销售单可以生成会计分录，自动记入应收账款和主营业务收入科目。</p>
+ * 
+ * @author 财务管理系统
+ * @version 1.0
+ * @since 2025-01-01
  */
 @Data
 @Entity

@@ -5,7 +5,16 @@ import javax.persistence.*;
 import java.time.LocalDateTime;
 
 /**
- * 供应商实体
+ * 供应商信息实体类
+ * 
+ * <p>用于管理企业的供应商（采购来源）基本信息，包括供应商编码、名称、
+ * 联系方式、银行账户、税务信息等。</p>
+ * 
+ * <p>供应商信息用于采购订单、应付账款管理等业务模块。</p>
+ * 
+ * @author 财务管理系统
+ * @version 1.0
+ * @since 2025-01-01
  */
 @Data
 @Entity
@@ -68,6 +77,9 @@ public class Supplier {
         updatedAt = LocalDateTime.now();
     }
 }
+
+
+
 
 
 

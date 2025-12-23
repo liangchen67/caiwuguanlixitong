@@ -6,7 +6,14 @@ import javax.persistence.*;
 import java.math.BigDecimal;
 
 /**
- * 采购订单明细实体
+ * 采购订单明细实体类
+ * 
+ * <p>采购订单的明细行，记录每个采购物料的详细信息，
+ * 包括物料名称、编码、规格、数量、单价、金额等。</p>
+ * 
+ * @author 财务管理系统
+ * @version 1.0
+ * @since 2025-01-01
  */
 @Data
 @Entity
